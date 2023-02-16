@@ -28,3 +28,28 @@ int main()
 	pause_thread(15);
 	return 0;
 }
+// maybe output:
+// Done spawning threads.
+// Done spawning threads.
+// Done spawning threads.
+// (the main thread will now pause for 5 seconds)
+// pause of 0 seconds ended
+// 26120pause of 0 seconds ended
+// 24972
+
+// pause of 0 seconds ended
+// 7340
+// pause of pause of 1 seconds ended
+// 668
+// 1 seconds ended
+// 24116
+// pause of 1 seconds ended
+// 25080
+// pause of 2 seconds ended
+// 26448
+// pause of 2 seconds ended
+// 20236
+// pause of 2 seconds ended
+// 23556
+// pause of 15 seconds ended
+// 25836
